@@ -323,6 +323,180 @@ footer h3 {
 /* Textimonial CSS Code End */
 
 
+
+
+
+footer {
+  background: #16222A;
+  background: -webkit-linear-gradient(59deg, #023b60, #16222A);
+  background: linear-gradient(59deg, #023b60, #16222A);
+  color: white;
+  height: 250px;
+}
+
+footer a {
+  color: #fff;
+  font-size: 14px;
+  transition-duration: 0.2s;
+}
+
+footer a:hover {
+  color: #FA944B;
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #FFFFFF;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+
+/*SOCİAL İCONS*/
+
+/* footer social icons */
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+
+/* footer social icons */
+
+.social-network a.icoFacebook:hover {
+  background-color: #3B5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+
+
+.social-network a.icoTwitter:hover {
+  background-color: #55acee;
+}
+
+
+.social-network a.icoGitHub:hover {
+  background-color: #333;
+}
+
+.social-network a.icoWhatsapp:hover {
+  background-color: #4AC959;
+}
+
+
+.social-network a.icoMedium:hover {
+  background-color: rgba(0,0,0,.84);
+}
+
+.social-network a.icoPodcast:hover {
+  background-color: rgb(2, 59, 96);
+}
+
+.social-network a.icoFacebook:hover i,
+.social-network a.icoLinkedin:hover i,
+.social-network a.icoTwitter:hover i,
+.social-network a.icoGitHub:hover i,
+.social-network a.icoWhatsapp:hover i,
+.social-network a.icoMedium:hover i,
+.social-network a.icoPodcast:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover,
+.socialHoverClass {
+  color: #44BCDD;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+@media only screen and (max-width: 768px) {
+  .social-circle li a {
+    display: inline-block;
+    position: relative;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    text-align: center;
+    width: 25px;
+    height: 25px;
+    font-size: 14px;
+  }
+  .footer-middle {
+    padding-top: 0em;
+    padding: 0em;
+    margin-top: 0em;
+  }
+  footer > .container {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #023b60, #16222A);
+    background: linear-gradient(59deg, #023b60, #16222A);
+  }
+  footer > .footer-middle {
+    background: #16222A;
+    background: -webkit-linear-gradient(59deg, #023b60, #16222A);
+    background: linear-gradient(59deg, #023b60, #16222A);
+  }
+}
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i,
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #F9F9F9;
+}
+
   </style>
 </head>
 
@@ -528,10 +702,44 @@ footer h3 {
 
   
 </main>
-  <footer class="pb-4 mt-4">
-    <h3 style="margin:0px; margin-bottom: 1rem;">Get In Touch</h3> 
-    <p><i class="fas fa-phone-alt"></i> 215-252-9400</p>
-    <p><i class="fas fa-map-marker-alt"></i>  2929 ARCH STREET, SUITE 1525, PHILADELPHIA, PA 19104</p>
+
+
+
+<footer class="mainfooter" role="contentinfo">
+  <div class="footer-middle">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <!--Column1-->
+        <div class="footer-pad">
+          <h4>Get In Touch</h4>
+          <p><i class="fas fa-phone-alt"></i> 215-252-9400</p>
+          <p><i class="fas fa-map-marker-alt"></i>  2929 ARCH STREET, SUITE 1525, PHILADELPHIA, PA 19104</p>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <h4>Join Us</h4>
+            <ul class="social-network social-circle">
+             <li><a target="_blank" href="https://www.facebook.com/humanID.org/" class="icoFacebook" title="Facebook"><i class="fab fa-1x fa-facebook-f"></i></a></li>
+             <li><a target="_blank" href="https://www.linkedin.com/company/humanid/" class="icoLinkedin" title="Linkedin"><i class="fab fa-1x fa-linkedin-in"></i></a></li>
+             <li><a target="_blank" href="https://twitter.com/humanID_org" class="icoTwitter" title="Twitter"><i class="fab fa-1x fa-twitter"></i></a></li>
+             <li><a target="_blank" href="https://github.com/bluenumberfoundation" class="icoGitHub" title="GitHub"><i class="fab fa-1x fa-github-alt"></i></a></li>
+             <li><a target="_blank" href="https://anchor.fm/human-id" class="icoPodcast" title="Podcast"><i class="fas fa-1x fa-microphone-alt"></i></a></li>
+             <li><a target="_blank" href="https://chat.whatsapp.com/ECUQk2dodWQ4o5aePXH92w" class="icoWhatsapp" title="Whatsapp"><i class="fab fa-1x fa-whatsapp"></i></a></li>
+             <li><a target="_blank" href="https://medium.com/humanid" class="icoMedium" title="Medium"><i class="fab fa-1x fa-medium-m"></i></a></li>
+            </ul>				
+    </div>
+    </div>
+  <div class="row m-0 p-0">
+    <div class="col-md-12 copy">
+      <p class="text-center">&copy; 2020 FD Fund Administration</p>
+    </div>
+  </div>
+
+
+  </div>
+  </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

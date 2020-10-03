@@ -16,6 +16,15 @@
 
   <!-- Latest compiled and minified CSS & JS -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap-theme.min.css">
+  <script type="text/javascript" src="https://code.jquery.com/jquery.min.js"></script>
+  <script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+
+
+
+
   <link rel="icon" href="https://cdn.glitch.com/128d55d4-fafb-4e5a-9584-79898a331c9c%2Flogo.png?v=1601698475756"/>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
@@ -29,6 +38,9 @@
   <script src="https://kit.fontawesome.com/a076d05399.js"></script>
   <link rel="stylesheet" href="font-awesome-animation.min.css">
 
+
+  
+ 
   <style>
     .btn-lg {
     width: 250px;
@@ -243,6 +255,74 @@ footer h3 {
     background-image: linear-gradient(rgba(0, 0, 0, .5), rgba(0, 0, 0, .5)), url("https://cdn.glitch.com/0cc91850-cd5e-4827-a102-0ddee1243509%2Fnew.jpeg?v=1600626752013");
   }
 
+
+
+/* quote */
+.quote-image {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: auto;
+  padding-top: 60px;
+  width: 80px;
+}
+/* text-style */
+.testimonial-style .testimonial-caption-style {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 24px;
+  color: #354052;
+  line-height: 30px;
+  bottom: 40%;
+  text-shadow: none;
+  top: 10%;
+}
+.testimonial-style .testimonial-authors {
+  font-family: "Roboto";
+  font-weight: 700;
+  font-size: 20px;
+  color: #354052;
+  line-height: 30px;
+  margin-top: 40px;
+}
+/* carousel-height-control */
+.testimonial-style .carousel-inner > .item {
+  padding-top: auto;
+  padding-bottom: auto;
+  height: 250px;
+}
+/* carousel-left-right-control */
+.testimonial-style .carousel-control.left {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+.testimonial-style .carousel-control.right {
+  background: none;
+  box-shadow: none;
+  text-shadow: none;
+}
+.testimonial-style .carousel-control {
+  color: #354052;
+}
+.testimonial-style .carousel-control:hover {
+  color: #354052;
+  text-decoration: none;
+  transition: background-color 1s ease;
+}
+/* indicators */
+.testimonial-style .carousel-indicators .active {
+  background-color: #fff;
+  width: 14px;
+  height: 14px;
+  transition: background 1s cubic-bezier(0.22, 0.61, 0.36, 1);
+}
+.testimonial-style .carousel-indicators li {
+  border: 2px solid #354052;
+  background-color: #354052;
+}
+/* Textimonial CSS Code End */
+
+
   </style>
 </head>
 
@@ -311,7 +391,7 @@ footer h3 {
 
 
 
-<div id="aboutus" style="margin-top: 92vh;">
+  <div id="aboutus" style="margin-top: 92vh;">
 
   <div class="row justify-content-center">
  <h6 style="color: #333333; font-weight: 700; font-size: 1.1rem; line-height: 3rem;">FD Fund Administration provides deep expertise and tailored services for real estate and private equity funds</h6>
@@ -367,20 +447,20 @@ footer h3 {
  
             <div class="row mt-4">
                 <div class="col-sm-4 text-center faa-parent animated-hover">
-                  <i class="fas fa-4x fa-laptop faa-pulse"></i>
-                  <p class="mt-3">Bookkeeping</p>
+                  <i class="fas fa-4x fa-calculator faa-ring"></i>
+                  <p class="mt-3">Fund accounting</p>
                 </div>
       
         
                 <div class="col-sm-4 text-center faa-parent animated-hover">
                   <i class="far fa-4x fa-newspaper faa-horizontal"></i>
-                  <p class="mt-3">Financial Reporting</p>
+                  <p class="mt-3">Investor services</p>
                 </div>
 
                 <div class="col-sm-4 text-center faa-parent animated-hover">
         
-                  <i class="far fa-4x fa-calendar-check faa-float"></i>
-                  <p class="mt-3">Audit Preparation</p>
+                  <i class="fas fa-4x fa-gavel faa-spin"></i>
+                  <p class="mt-3">Tax services</p>
                 </div>
               </div>
 
@@ -388,46 +468,70 @@ footer h3 {
                 <div class="col-sm-4 text-center faa-parent animated-hover">
                   <i class="fas fa-4x fa-poll faa-shake"></i>
         
-                  <p class="mt-3">Budgeting and Forecasting</p>
+                  <p class="mt-3">Valuations</p>
                 </div>
         
                 <div class="col-sm-4 text-center faa-parent animated-hover"> 
-                  <i class="fas fa-4x fa-cogs faa-tada"></i>
-                  <p class="mt-3">Accounting Software Setup and Maintenance</p>
+                  <i class="far fa-4x fa-calendar-check faa-float"></i>
+                  <p class="mt-3">Financial reporting</p>
                 </div>
         
                 <div class="col-sm-4 text-center faa-parent animated-hover">
-                  <i class="fas fa-4x fa-pen-square faa-spin"></i> 
-                  <p class="mt-3">Chart of Accounts Design</p>
-                </div>
-              </div>
-
-              <div class="row mt-1 pt-1 pb-4">
-                <div class="col-sm-4 text-center faa-parent animated-hover">
-                  <i class="fas fa-4x fa-calculator faa-ring"></i>
-                  <p class="mt-3">Chief Financial Officer</p>
-                </div>
-        
-                <div class="col-sm-4 text-center faa-parent animated-hover"> 
-                  <i class="fas fa-4x fa-user-shield faa-pulse"></i>
-                  <p class="mt-3">Internal Controls Design</p>
-                </div>
-        
-                <div class="col-sm-4 text-center faa-parent animated-hover">
-                  <i class="fas fa-4x fa-gavel faa-spin"></i>
-                  <p class="mt-3">Regulatory Compliance</p>
+                  <i class="fas fa-4x fa-laptop faa-pulse"></i>
+                  <p class="mt-3">Portfolio Analytics</p>
                 </div>
               </div>
 
           </div>
         </div> 
-    </div>
+
+
+
+        <div id="testimonial"> 
+          <div id="header">
+            <h2 style="margin: 1rem 0 1rem 0">Testimonial</h2>
+        </div>
+
+        <div>
+          <img src="https://i.imgur.com/gZ5HY0U.png" class="img-responsive quote-image">
+        </div>
+        <!-- Carousel Start below -->
+        <div id="carousel1" class="carousel slide testimonial-style" data-ride="carousel" style="height: 250px;">
+
+          <!-- Wrapper for slides -->
+          <div class="carousel-inner">
+            <div class="item active">
+              <div class="carousel-caption testimonial-caption-style">
+                <p>"FD-FA has the right resources and understanding of our business to provide a level of service that is second to none."</p>
+                <p class="testimonial-authors">SAMANTHA LEANDRI, HAMILTON LANE</p>
+              </div>
+            </div>
+            <div class="item">
+              <div class="carousel-caption testimonial-caption-style">
+                <p>"FD-FA is the experienced and sophisticated fund administrator of choice when it comes to handling our complex real estate fund structures."</p>
+                <p class="testimonial-authors">RYAN FORRY, LUBERT-ADLER</p>
+              </div>
+            </div>
+          </div>
+      
+          <!-- Controls -->
+      
+          <a class="left carousel-control" href="#carousel1" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a>
+          <a class="right carousel-control" href="#carousel1" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+        </div>
+        
+        </div>
+
+
+
+
+
+  
 </main>
-  <footer class="pb-4">
-    <h3 style="margin:0px">Get In Touch</h3>
-    <p>Email or call us to schedule an appointment</p>
-    <p>Email: <strong>dbahl@asnyinc.com</strong></p>
-    <p>Phone: <strong>917-620-9702</strong></p>
+  <footer class="pb-4 mt-4">
+    <h3 style="margin:0px; margin-bottom: 1rem;">Get In Touch</h3> 
+    <p><i class="fas fa-phone-alt"></i> 215-252-9400</p>
+    <p><i class="fas fa-map-marker-alt"></i>  2929 ARCH STREET, SUITE 1525, PHILADELPHIA, PA 19104</p>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
@@ -435,7 +539,12 @@ footer h3 {
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 
+<script src='http://cdn.jsdelivr.net/jquery.slick/1.6.0/slick.min.js'></script>
+
+ 
  <script>
+
+
        $(document).ready(function(){
       $('.sidenav').sidenav();
   }); 
